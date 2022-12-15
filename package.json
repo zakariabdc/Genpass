@@ -1,10 +1,12 @@
 {
-  "name": "genpass",
+  "name": "@zakariabdc/genpass",
   "version": "1.0.0",
   "description": "Password Generator",
   "main": "index.js",
   "preferGlobal": true,
-  "bin": "./index.js",
+  "bin": {
+    "genpass": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,5 +28,6 @@
     "chalk": "^4.1.2",
     "clipboardy": "^2.3.0",
     "commander": "^9.4.1"
-  }
+  },
+  "devDependencies": {}
 }
