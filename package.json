@@ -1,0 +1,30 @@
+{
+  "name": "genpass",
+  "version": "1.0.0",
+  "description": "Password Generator",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakariabdc/Genpass.git"
+  },
+  "keywords": [
+    "password",
+    "generator"
+  ],
+  "author": "Zakaria Boudchiche",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zakariabdc/Genpass/issues"
+  },
+  "homepage": "https://github.com/zakariabdc/Genpass#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "clipboardy": "^2.3.0",
+    "commander": "^9.4.1"
+  }
+}
